@@ -7,6 +7,14 @@ The POCO F5 Pro / Xiaomi Redmi K60 (codenamed _"mondrian"_) is a high-end smartp
 
 It was released in China in January 2023 and globally in May 2023.
 
+## Miku UI Android 17 (Cinderella)
+
+The product is `miku_mondrian`; use the `cp2a` release configuration. The board
+platform remains `taro` (SM8475 belongs to the SM8450 family).
+
+See [BUILD_MIKU.md](BUILD_MIKU.md) for the required dependency manifest, proprietary
+blob extraction, build preflight checks and the exact lunch command.
+
 ## Device specifications
 
 Basic   | Spec Sheet

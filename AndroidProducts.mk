@@ -5,4 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mondrian.mk
+    $(LOCAL_DIR)/miku_mondrian.mk
+
+COMMON_LUNCH_CHOICES := \
+    miku_mondrian-cp2a-userdebug

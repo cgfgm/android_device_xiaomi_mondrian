@@ -7,10 +7,10 @@
 # Inherit from mondrian device
 $(call inherit-product, device/xiaomi/mondrian/device.mk)
 
-# Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from Miku UI Android 17 (Cinderella)
+$(call inherit-product, vendor/miku/build/product/miku_product_phone.mk)
 
-PRODUCT_NAME := lineage_mondrian
+PRODUCT_NAME := miku_mondrian
 PRODUCT_DEVICE := mondrian
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
