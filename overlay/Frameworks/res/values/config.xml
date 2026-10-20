@@ -307,4 +307,5 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 H -34 V 120 H 34 V 0 H 0 Z</string>
+    <bool name="config_supportSmartPixels">true</bool>
 </resources>
