@@ -1,0 +1,13 @@
+
+android_app_import {
+    name: "viaAPP",
+    apk: "via.apk",
+    presigned: true,
+    preprocessed: true,
+
+    privileged: false,
+
+    dex_preopt: {
+        enabled: false,
+    },
+}
